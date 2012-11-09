@@ -26,7 +26,7 @@ The result is given out as a searchinfo dictionary of the form:
 The function to find the shortest path to an endpoint, given a searchinfo dictionary from function dijkstra. Output is an ordered list of nodes in the shortest path
 
 ###  duplicate_path(in_graph):
-A function used internally by function dijkstra. Used to duplicate forward path lengths for backward paths also (eg ('A','B'):5 is duplicated as ('B','A'):5. This reduces the graph description work for bidirectional graphs. To use this option, just leave the 'makefull' argument of 'dijkstra' function as True. Force it to False, otherwise.
+A function used internally by function dijkstra. Used to duplicate forward path lengths for backward paths also (eg ('A','B'):5 is duplicated as ('B','A'):5). This reduces the graph description work for bidirectional graphs. To use this option, just leave the 'makefull' argument of 'dijkstra' function as True. Force it to False, otherwise.
 
 vectors.py
 ----------

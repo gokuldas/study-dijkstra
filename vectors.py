@@ -19,6 +19,8 @@ def TV02():
                 ('H','I'):3 }
 
     start_node, end_node = 'A', 'E'
-    exp_dist = dict()
+    exp_dist = {'A':(None,0), 'B':('A',2), 'C':('A',9), \
+                'D':('B',4) , 'E':('D',9), 'F':('D',7), \
+                'G':('A',4) , 'H':('I',9), 'I':('G',6) }
     exp_path = ['A', 'B', 'D', 'E']
     return (in_graph, start_node, end_node, exp_dist, exp_path)
