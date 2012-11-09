@@ -5,7 +5,7 @@ def duplicate_path(in_graph):
     return out_graph
 
 
-def dijkstra(graph, start_node, end_node, makefull = True):
+def dijkstra(graph, start_node, makefull = True):
     """Implementation of Dijkstra's algorithm"""
     if makefull: graph = duplicate_path(graph) 
     # uvnodes : unvisited nodes
@@ -58,7 +58,7 @@ Expected path is       : {6}
 def tester(vector):
     """Test function: use TVxx() function to get test vector"""
     in_graph, start_node, end_node, exp_dist, exp_path = vector
-    si = dijkstra(in_graph, start_node, end_node)
+    si = dijkstra(in_graph, start_node)
     spath = shortest(si, end_node)
     s = _output.format(in_graph, start_node, end_node, \
                        si, exp_dist, \
