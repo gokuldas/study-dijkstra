@@ -1,5 +1,7 @@
 
 def TV01():
+    """Test case from Wikipedia: Dijkstra's algorithm
+    http://en.wikipedia.org/wiki/Dijkstra%27s_Algorithm """
     in_graph = {('1','2'):7 , ('1','6'):14, ('1','3'):9 ,\
                 ('2','3'):10, ('2','4'):15, ('3','4'):11,\
                 ('3','6'):2 , ('4','5'):6 , ('6','5'):9  }
@@ -11,6 +13,8 @@ def TV01():
 
 
 def TV02():
+    """Test case from youtube: Dijkstra's Algorithm: Shortest Path 
+    http://www.youtube.com/watch?v=psg2-6-CEXg """
     in_graph = {('A','B'):2, ('A','C'):9, ('A','G'):4, \
                 ('B','C'):4, ('B','D'):2, ('B','F'):7, \
                 ('B','G'):6, ('C','D'):3, ('D','E'):5, \
