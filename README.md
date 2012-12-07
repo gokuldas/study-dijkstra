@@ -32,3 +32,7 @@ vectors.py
 ----------
 
 This file contains the test cases in the form of functions of name TV## (## is a 2 digit number). Each function returns a tuple that can be fed directly to the dijkstra.tester() function. The tuple contains the inputs and the expected outputs.
+
+LICENSE
+-------
+This project is licensed under the BSD 3-clause license. Refer LICENSE file for details.

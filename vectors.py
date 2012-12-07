@@ -1,3 +1,9 @@
+#
+# vectors.py
+# Dijkstra algorithm project
+#
+# Copyright (c) 2012, Gokul Das
+#
 
 def TV01():
     """Test case from Wikipedia: Dijkstra's algorithm

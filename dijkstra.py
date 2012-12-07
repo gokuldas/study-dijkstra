@@ -1,3 +1,10 @@
+#
+# dijkstra.py
+# Dijkstra algorithm project
+#
+# Copyright (c) 2012, Gokul Das
+#
+
 def duplicate_path(in_graph):
     """Update graph with reverse path costs"""
     out_graph = {(i[1],i[0]):in_graph[i] for i in in_graph.keys()}
